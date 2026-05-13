@@ -131,7 +131,7 @@ let routes = [];
 let scheduledRuns = [];
 
 // Replace with your published Google Sheet JSON endpoint
-const GOOGLE_SHEET_URL = 'https://opensheet.elk.sh/1_1t3XtoAZ0vagZX1ePSvvAGu9o9S1O85YUoLMCFCkRs/Schedule';
+const GOOGLE_SHEET_URL = 'PASTE_GOOGLE_SHEET_JSON_URL_HERE';
 let map;
 let gpxLayer;
 
@@ -168,20 +168,23 @@ function renderSchedule() {
     const route = routes.find(r => r.id === run.routeId);
     if (!route) return;
 
+    const safeId = `schedule-thumb-${run.routeId}-${run.date}`
+      .replace(/[^a-zA-Z0-9-_]/g, '-');
+
     const div = document.createElement('div');
     div.className = 'card';
     div.innerHTML = `
       <small>${run.date} · ${run.time}</small>
       <h3 class="route-title">${run.runningGroup}</h3>
       <p>${route.name}</p>
-      <div class="map-thumb" id="schedule-thumb-${run.routeId}-${run.date}"></div>
+      <div class="map-thumb" id="${safeId}"></div>
     `;
 
     div.onclick = () => openScheduledRoute(run, route);
     grid.appendChild(div);
 
     setTimeout(() => {
-      initThumbMap(route, `schedule-thumb-${run.routeId}-${run.date}`)
+      initThumbMap(route, safeId)
     },100);
   });
 }
@@ -273,4 +276,3 @@ loadRoutes();
 
 </body>
 </html>
-
