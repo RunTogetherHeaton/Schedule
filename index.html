@@ -147,6 +147,8 @@ async function loadSchedule() {
     const res = await fetch(GOOGLE_SHEET_URL);
     const data = await res.json();
 
+    // Expected columns:
+    // date, time, runningGroup, routeId
     scheduledRuns = data;
     renderSchedule();
   } catch (err) {
@@ -171,7 +173,6 @@ function renderSchedule() {
 
     const div = document.createElement('div');
     div.className = 'card';
-
     const formattedDate = new Date(run.date)
       .toLocaleDateString('en-GB', {
         weekday: 'short',
