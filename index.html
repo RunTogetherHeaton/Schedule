@@ -246,7 +246,10 @@ function renderGrid() {
       <div class="map-thumb" id="thumb-${r.id}"></div>
     `;
 
-    div.onclick = () => openRoute(r);
+    div.onclick = () => {
+  previousSection = 'routes';
+  openRoute(r);
+};
     grid.appendChild(div);
 
     setTimeout(() => initThumbMap(r), 100);
@@ -272,10 +275,13 @@ function initThumbMap(route, elementId = `thumb-${route.id}`) {
 }
 
 function openScheduledRoute(run, route) {
-  openRoute(route);
-  document.getElementById('routeInfo').innerText = `${route.distance} km · ${run.runningGroup} · ${run.date} ${run.time}`;
-}
+  previousSection = 'schedule';
 
+  openRoute(route);
+
+  document.getElementById('routeInfo').innerText =
+    `${route.distance} km · ${run.runningGroup} · ${run.date} ${run.time}`;
+}
 function openRoute(route) {
   // Hide everything except detailed route view
   document.getElementById('homeView').style.display = 'none';
