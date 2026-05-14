@@ -141,6 +141,7 @@
 <script>
 let routes = [];
 let scheduledRuns = [];
+let previousSection = 'routes';
 
 // Replace with your published Google Sheet JSON endpoint
 const GOOGLE_SHEET_URL = 'https://opensheet.elk.sh/1_1t3XtoAZ0vagZX1ePSvvAGu9o9S1O85YUoLMCFCkRs/Schedule';
@@ -310,16 +311,25 @@ function openRoute(route) {
   }, 100);
 }
 function showSection(section) {
-  document.getElementById('homeView').style.display = section === 'routes' ? 'block' : 'none';
-  document.getElementById('scheduleView').style.display = section === 'schedule' ? 'block' : 'none';
+  previousSection = section;
+
+  document.getElementById('homeView').style.display =
+    section === 'routes' ? 'block' : 'none';
+
+  document.getElementById('scheduleView').style.display =
+    section === 'schedule' ? 'block' : 'none';
+
   document.getElementById('routeView').style.display = 'none';
 }
-
 function showHome() {
   document.getElementById('routeView').style.display = 'none';
-  document.getElementById('homeView').style.display = 'block';
-}
 
+  document.getElementById('homeView').style.display =
+    previousSection === 'routes' ? 'block' : 'none';
+
+  document.getElementById('scheduleView').style.display =
+    previousSection === 'schedule' ? 'block' : 'none';
+}
 loadRoutes();
 </script>
 
