@@ -160,19 +160,27 @@ function renderSchedule() {
   const grid = document.getElementById('scheduleGrid');
   grid.innerHTML = '';
 
+  const today = new Date();
+  today.setHours(0,0,0,0);
+
   const upcoming = scheduledRuns
-    .filter(run => new Date(run.date) >= new Date())
+    .filter(run => {
+      const runDate = new Date(run.date);
+      runDate.setHours(0,0,0,0);
+      return runDate >= today;
+    })
     .sort((a,b) => new Date(a.date) - new Date(b.date));
 
   upcoming.forEach(run => {
-    const route = routes.find(r => r.id === run.routeId);
-    if (!route) return;
+    const route = routes.find(
+      r => String(r.id) === String(run.routeId)
+    );
 
-    const safeId = `schedule-thumb-${run.routeId}-${run.date}`
-      .replace(/[^a-zA-Z0-9-_]/g, '-');
+    if (!route) return;
 
     const div = document.createElement('div');
     div.className = 'card';
+
     const formattedDate = new Date(run.date)
       .toLocaleDateString('en-GB', {
         weekday: 'short',
@@ -184,10 +192,10 @@ function renderSchedule() {
 
     div.innerHTML = `
       <div style="font-size:0.9rem; color:#b8c2d1; margin-bottom:8px;">
-        ${formattedDate} - ${run.time}
+        ${formattedDate} · ${run.time}
       </div>
 
-      <h3 class="route-title" style="min-height:auto; margin-bottom:4px;">
+      <h3 class="route-title" style="min-height:auto; margin-bottom:6px;">
         ${run.runningGroup}
       </h3>
 
@@ -195,22 +203,23 @@ function renderSchedule() {
         ${route.name}
       </p>
 
-      <p style="margin:0 0 12px 0; color:#9ea8b8; min-height:1.2em;">
+      <p style="margin:0 0 14px 0; color:#9ea8b8;">
         ${run.notes || ''}
       </p>
 
-      <div class="map-thumb" id="${safeId}"></div>
+      <button class="btn" style="margin-top:auto;">
+        View Route
+      </button>
     `;
 
-    div.onclick = () => openScheduledRoute(run, route);
-    grid.appendChild(div);
+    div.querySelector('.btn').onclick = (e) => {
+      e.stopPropagation();
+      openScheduledRoute(run, route);
+    };
 
-    setTimeout(() => {
-      initThumbMap(route, safeId)
-    },100);
+    grid.appendChild(div);
   });
 }
-
 function renderGrid() {
   const grid = document.getElementById('routesGrid');
   grid.innerHTML = '';
