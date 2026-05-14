@@ -276,13 +276,15 @@ function openScheduledRoute(run, route) {
 }
 
 function openRoute(route) {
+  // Hide everything except detailed route view
   document.getElementById('homeView').style.display = 'none';
+  document.getElementById('scheduleView').style.display = 'none';
   document.getElementById('routeView').style.display = 'block';
 
   document.getElementById('routeName').innerText = route.name;
   document.getElementById('routeInfo').innerText = route.distance + ' km';
-
-  document.getElementById('routeDescription').innerText = route.description || '';
+  document.getElementById('routeDescription').innerText =
+    route.description || '';
 
   document.getElementById('stravaLink').href = route.strava;
   document.getElementById('gpxDownload').href = route.gpx;
@@ -292,17 +294,21 @@ function openRoute(route) {
 
     map = L.map('map').setView([53.6, -2.1], 13);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    L.tileLayer(
+      'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+    ).addTo(map);
 
     gpxLayer = new L.GPX(route.gpx, {
       async: true,
       polyline_options: { color: 'lime' }
-    }).on('loaded', function(e) {
+    })
+    .on('loaded', function(e) {
       map.fitBounds(e.target.getBounds());
-    }).addTo(map);
+    })
+    .addTo(map);
+
   }, 100);
 }
-
 function showSection(section) {
   document.getElementById('homeView').style.display = section === 'routes' ? 'block' : 'none';
   document.getElementById('scheduleView').style.display = section === 'schedule' ? 'block' : 'none';
