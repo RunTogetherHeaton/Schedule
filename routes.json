@@ -87,14 +87,6 @@
     "gpx": "./gpx/Loopy Loop Run.gpx",
     "strava": "https://www.strava.com/routes/3440729615497429828",
     "description": "Turn right onto Rectory, up Whittaker then left onto Bury Old Road. Left onto Heys Road and then right at the end onto Poppythorn. Continue along Poppythorn onto Langley Hall Rd. Turn Right onto Bury Old Road and then right again Heywood Road. Run to the end of Heywood Road, right onto Scholes Lane then right onto Bury New Road returning to the park down St Mary's Rd."
- },
-  
- {
-    "id": "skills",
-    "name": "Skills & Drills",
-    "distance": 5,
-    "gpx": "./gpx/",
-    "strava": "",
-    "description": "A gentle warm up run to an area of the park for a fun skills and drills session."
- }
+ } 
+ 
 ]
