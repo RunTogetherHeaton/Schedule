@@ -6,7 +6,7 @@
     "gpx": "./gpx/3-2-1 Loops.gpx",
     "strava": "https://www.strava.com/routes/3315794949942727652",
     "description": "Big Loop -Up St Marys left onto BNR, Left onto Scholes, Left onto BOR, Left at HP Tram Stop Down Whittaker over roundabout and back to start. Middle Loop. Same start St Marys-BNR-Scholes, first left onto Heywood Road, left at Rectory back to St Marys. Small Loop - St Marys-BNR, left onto Park View Road, Left onto Heywood, Left onto Rectory back to St Marys."
-  },
+ },
 
  {
     "id": "presthills",
@@ -15,9 +15,9 @@
     "gpx": "./gpx/RTH - Prestwich Hills Via Sandy Lane.gpx",
     "strava": "https://www.strava.com/routes/3427672282158618974",
     "description": "Exit through the park and turn left onto Bury New Road, crossing over safely. Turn right up Butterstile until you reach Sandy Lane then turn left. At the end of Sandy Lane turn left onto Hilton Lane then left at the top back on to Bury New Road. At Butterstile turn left again and then second left onto Prestwich Hills to re-group.  We will then do a few loops of Prestwich Hills in either direction before returning to the park via Butterstile / Bury New Road."
-  },
+ },
 
-  {
+ {
     "id": "sameyet",
     "name": "Same Yet O&B",
     "distance": 7.9,
@@ -33,7 +33,7 @@
     "gpx": "./gpx/RTH - BNR_Scholes_BOR_Barn_BNR.gpx",
     "strava": "https://www.strava.com/routes/3315796801745493434",
     "description": "Exit the park turning left onto Bury New Road. Turn Left and run along Scholes Lane and then left at St Monicas onto Bury Old Road. Continue all the way up to Bessies O' th' Barn and turn Left onto Barn Lane. Turn Left onto Bury New Road then run all the way back down to the park."
-  },
+ },
 
  {
     "id": "stocking5k",
@@ -96,7 +96,7 @@
     "gpx": "./gpx/Whitefield Wander Shorter (through the meadow).gpx",
     "strava": "https://www.strava.com/routes/3423095791205749310",
     "description": "Exit the car park turning right onto St Mary's Road. Continue along Rectory Lane and up Whittaker Lane towards Heaton Park Tram Stop. Cross over Bury Old Road and turn left. Turn right onto Heywood Road and then left onto Mount Road and continue straight onto Sandgate Road. At the end turn left onto Thatch Leach Lane. We'll then take the first right onto Stanway Rd and then the 2nd left onto Grayson Ave for a cheeky little scoot through Fusiliers Meadow. Exit the Meadow onto Thatch Leach and run towards Bury New Road crossing safely at the lights and heading straight down Hardman's Road. Cross over the motorway turning left onto Bury New Road and return to the park via St Mary's Road."
-  },
+ },
 
  {
     "id": "cloughdrinkrainsheywood",
@@ -106,7 +106,7 @@
     "strava": "https://www.strava.com/routes/3333473146498384786",
     "description": "Run through the Park past the play area taking the right exit onto Bury New Road. Cross over and enter the Clough through the flower garden. Continue through the Clough with the brook on your right to just past the end of Buckley Lane then turn left and run down through Drinkwater Park to the bottom of Rainsough Brow. Turn left up Rainsough and continue up Hilton Lane to Bury New Road. Cross Bury New Road and head up Scholes Lane. Take the first left onto Heywood Road to the mini roundabout and then Left onto Rectory Lane returning to the car park via St Mary's Road."
  },
-  
+
  {
     "id": "cloughphilipsparkbnr",
     "name": "Through The Clough-Phillips Park Road-Bury New Road",
@@ -187,5 +187,4 @@
     "strava": "https://www.strava.com/routes/3446853333785803238",
     "description": "Exit through the park turning left onto Bury New Road. Continue down BNR past Scholes turning left onto Sedgeley Park Rd and then Right onto Queens Drive. At the end of Queens Drive turn Left onto Kings Rd. Cross over Bury Old Road and continue onto Castle Hill Rd turning left at the end onto Park Road. Left onto Sheepfoot Lane and then Right onto Bury Old Rd (crossing onto the far side of BOR at the lights). Continue up BOR to Heys Rd. Left down Heys Road, Left onto Heywood Rd, Right onto Rectory Lane following the road back round to the start."
  }
-
 ]
