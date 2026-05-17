@@ -99,6 +99,42 @@
   },
 
  {
+    "id": "cloughdrinkrainsheywood",
+    "name": "Clough to Drinkwater Back via Rainscough & Heywood",
+    "distance": 5.66,
+    "gpx": "./gpx/RTH - Through the Clough down to Drinkwater Car Park. Back via Rainsough Brow_Hilton_Heywood.gpx",
+    "strava": "https://www.strava.com/routes/3333473146498384786",
+    "description": "Run through the Park past the play area taking the right exit onto Bury New Road. Cross over and enter the Clough through the flower garden. Continue through the Clough with the brook on your right to just past the end of Buckley Lane then turn left and run down through Drinkwater Park to the bottom of Rainsough Brow. Turn left up Rainsough and continue up Hilton Lane to Bury New Road. Cross Bury New Road and head up Scholes Lane. Take the first left onto Heywood Road to the mini roundabout and then Left onto Rectory Lane returning to the car park via St Mary's Road."
+ },
+  
+ {
+    "id": "cloughphilipsparkbnr",
+    "name": "Through The Clough-Phillips Park Road-Bury New Road",
+    "distance": 6.27,
+    "gpx": "./gpx/RTH - Clough-Phillips Park Road-Bury New Road.gpx",
+    "strava": "https://www.strava.com/routes/3338642480264487198",
+    "description": "Run through the park taking the right exit onto Bury New Road. Cross over and enter the Clough through the flower garden. Continue through the Clough with the brook on your right and turn right onto the blue route (just past Buckley Lane). Continue along the blue route and onto the circular walk turning right at Formal Gardens. Head along the path towards Phillips Park Rd W crossing over the motorway then turn right onto Phillips Park Road and continue to the underpass. Crossing over Bury New Road and running past M&S and Aldi back to St Mary's Park."
+ },
+
+ {
+    "id": "bunnyrun",
+    "name": "Bunny Run - Quick Dash Through The Clough",
+    "distance": 5.57,
+    "gpx": "./gpx/Bunny Run _ Quick Dash Through The Clough.gpx",
+    "strava": "https://www.strava.com/routes/3413514697520864612",
+    "description": "Enter the Clough through the Flower Garden. Run through the Clough turning right up Buckley Lane on to Clifton Road. Left onto BNR crossing over at some point and running up to the Motorway Roundabout. Cut right behind the shops towards Cross Avenue and first right down Highfield Rd. Left onto Fairfax, right onto Rectory Lane all the way back to St Mary's Park."
+ },
+
+ {
+    "id": "cloughtescoshighfieldrectory",
+    "name": "Clough, Behind Tescos Back Via Highfield / Rectory",
+    "distance": 5.83,
+    "gpx": "./gpx/Clough, Behind Tescos Back Via Highfield _ Rectory.gpx",
+    "strava": "https://www.strava.com/routes/3468212505158514640",
+    "description": "Enter the Clough through the Flower Garden. Run through the Clough turning right up Buckley Lane on to Clifton Road. Opposite the end of Arthur St take a left through the ginnel on the left onto West Road and then left onto Pinfold all the way around the back of Tesco. Left up to the motorway roundabout and onto the other side of BNR behind the shops towards Cross Avenue. First right down Highfield Rd. Left onto Fairfax, right onto Rectory Lane all the way back to St Mary's Park."
+ },
+ 
+ {
     "id": "henryboddies",
     "name": "Henry Boddingtons O&B",
     "distance": 7.9,
@@ -106,8 +142,35 @@
     "strava": "https://www.strava.com/routes/3415832350484427442",
     "description": "Exit St Mary's Park turning left onto Bury New Road. Cross over and continue down BNR turning right onto Hilton Lane. Run down onto Rainscough continuing onto Agecroft until you reach the Henry Boddingtons. Return the same way in reverse."
  },
-  
-  
+ 
+ {
+    "id": "behindtescos",
+    "name": "Round the Back of Tesco's",
+    "distance": 5.43,
+    "gpx": "./gpx/Round the Back of Tesco's.gpx",
+    "strava": "https://www.strava.com/routes/3491164042725522334",
+    "description": "Exit park onto St Mary's Rd, cross over Bury New Road turning right towards the motorway. Left onto Church Lane and then right at Church Inn onto Church Drive. Continue running up Church Dr / Arthur St to the end where there are a few steps and a short path leading to West Rd. At the end cut through the left onto Pinfold Dr following it all the way round the back of Tesco's to the motorway roundabout. Cross the motorway taking the little cut through that brings you out on Cross Ave then around Stanley Ave and out onto Bury Old Road at the side of Kirkhams. Run down BOR all the way to the Ostrich pub. Turn right onto Ostrich Lane then fourth right onto Bent Lane returning back to the Park via Rectory Lane."
+ },
+ 
+ {
+    "id": "behindtescosreverse",
+    "name": "Round the Back of Tesco's (In Reverse)",
+    "distance": 5.89,
+    "gpx": "./gpx/Round The Back Of Tesco's (In Reverse).gpx",
+    "strava": "https://www.strava.com/routes/3431255266302052558",
+    "description": "Exit the park turning right onto Rectory Road over the roundabout then right onto Bent Lane and left onto Ostrich Lane. Left up BOR all the way past Kirkham's and over the motorway. Left onto Hardman's Rd, across the footbridge onto Tesco side of BNR. Right past TGI onto Pinfold Drive all the way around continuing straight onto Kingswood Rd up to Bury New Rd.  Cross over at the lights and run down BNR back to the start through St Mary's Park."
+ },
+
+ {
+    "id": "chasinglights",
+    "name": "Chasing Lights",
+    "distance": 5.7,
+    "gpx": "./gpx/Christmas Lights Run.gpx",
+    "strava": "https://www.strava.com/routes/3434912516995776130",
+    "description": "Exit park right onto Rectory. Left up Heywood then right onto Heys. Left at Bury Old then right onto St Margaret's.
+Right onto Heywood then Left onto Thornley Rd through a short ginnel onto Peverill Cl. Left onto Singleton and first right onto Sage Rd continuing onto Cuckoo Lane and then Right back onto Bury Old Road. Left down Nursery and Poppythorn then round Fairfax cutting through the precinct for a photo with the big Christmas tree and then back to the park via either Rectory or Bury New Rd."
+ }
+
  {
     "id": "loopyloop",
     "name": "Loopy Loop Run",
@@ -116,4 +179,14 @@
     "strava": "https://www.strava.com/routes/3440729615497429828",
     "description": "Turn right onto Rectory, up Whittaker then left onto Bury Old Road. Left onto Heys Road and then right at the end onto Poppythorn. Continue along Poppythorn onto Langley Hall Rd. Turn Right onto Bury Old Road and then right again Heywood Road. Run to the end of Heywood Road, right onto Scholes Lane then right onto Bury New Road returning to the park down St Mary's Rd."
  }
+
+ {
+    "id": "QueensKingsCastle",
+    "name": "Queens, Kings and Castle",
+    "distance": 5.79,
+    "gpx": "./gpx/Queens, Kings and Castle.gpx",
+    "strava": "https://www.strava.com/routes/3446853333785803238",
+    "description": "Exit through the park turning left onto Bury New Road. Continue down BNR past Scholes turning left onto Sedgeley Park Rd and then Right onto Queens Drive. At the end of Queens Drive turn Left onto Kings Rd. Cross over Bury Old Road and continue onto Castle Hill Rd turning left at the end onto Park Road. Left onto Sheepfoot Lane and then Right onto Bury Old Rd (crossing onto the far side of BOR at the lights). Continue up BOR to Heys Rd. Left down Heys Road, Left onto Heywood Rd, Right onto Rectory Lane following the road back round to the start."
+ }
+
 ]
