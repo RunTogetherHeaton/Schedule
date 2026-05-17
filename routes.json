@@ -1,14 +1,5 @@
 [
-  {
-    "id": "whitefield wander short meadow",
-    "name": "Whitefield Wander Shorter (Through the Meadow)",
-    "distance": 6.4,
-    "gpx": "./gpx/Whitefield Wander Shorter (through the meadow).gpx",
-    "strava": "https://www.strava.com/routes/3423095791205749310",
-    "description": "Exit the car park turning right onto St Mary's Road. Continue along Rectory Lane and up Whittaker Lane towards Heaton Park Tram Stop. Cross over Bury Old Road and turn left. Turn right onto Heywood Road and then left onto Mount Road and continue straight onto Sandgate Road. At the end turn left onto Thatch Leach Lane. We'll then take the first right onto Stanway Rd and then the 2nd left onto Grayson Ave for a cheeky little scoot through Fusiliers Meadow. Exit the Meadow onto Thatch Leach and run towards Bury New Road crossing safely at the lights and heading straight down Hardman's Road. Cross over the motorway turning left onto Bury New Road and return to the park via St Mary's Road."
-  },
-  
-  {
+ {
     "id": "321loops",
     "name": "3-2-1 Loops",
     "distance": 8,
@@ -16,8 +7,17 @@
     "strava": "https://www.strava.com/routes/3315794949942727652",
     "description": "Big Loop -Up St Marys left onto BNR, Left onto Scholes, Left onto BOR, Left at HP Tram Stop Down Whittaker over roundabout and back to start. Middle Loop. Same start St Marys-BNR-Scholes, first left onto Heywood Road, left at Rectory back to St Marys. Small Loop - St Marys-BNR, left onto Park View Road, Left onto Heywood, Left onto Rectory back to St Marys."
   },
-  
+
  {
+    "id": "presthills",
+    "name": "Prerstwich Hills Loops",
+    "distance": 6,
+    "gpx": "./gpx/RTH - Prestwich Hills Via Sandy Lane.gpx",
+    "strava": "https://www.strava.com/routes/3427672282158618974",
+    "description": "Exit through the park and turn left onto Bury New Road, crossing over safely. Turn right up Butterstile until you reach Sandy Lane then turn left. At the end of Sandy Lane turn left onto Hilton Lane then left at the top back on to Bury New Road. At Butterstile turn left again and then second left onto Prestwich Hills to re-group.  We will then do a few loops of Prestwich Hills in either direction before returning to the park via Butterstile / Bury New Road."
+  },
+
+  {
     "id": "sameyet",
     "name": "Same Yet O&B",
     "distance": 7.9,
@@ -25,16 +25,52 @@
     "strava": "https://www.strava.com/routes/3315789633100939100",
     "description": "Exit the car park turning right onto St Marys Road. Continue along Rectory Lane, up Whittaker Lane towards Heaton Park Tram Stop. Cross over Bury Old Road and turn left up to the corner of Bury Old Road and Heywood Road where we will regroup. We will then head out towards Simister / Same Yet Inn for 15 minutes. After 15 minutes turn back towards Bury Old Road. Cross over Bury Old Road we will and head down Heywood Road to Rectory Lane turning Right and running back to St Mary's Park."
  },
-  
+
  {
-    "id": "henryboddies",
-    "name": "Henry Boddingtons O&B",
-    "distance": 7.9,
-    "gpx": "./gpx/Henry Boddingtons O&B.gpx",
-    "strava": "https://www.strava.com/routes/3415832350484427442",
-    "description": "Exit St Mary's Park turning left onto Bury New Road. Cross over and continue down BNR turning right onto Hilton Lane. Run down onto Rainscough continuing onto Agecroft until you reach the Henry Boddingtons. Return the same way in reverse."
+    "id": "bnr-scholes-bor",
+    "name": "Bury New / Scholes / Bury Old Loop",
+    "distance": 6.6,
+    "gpx": "./gpx/RTH - BNR_Scholes_BOR_Barn_BNR.gpx",
+    "strava": "https://www.strava.com/routes/3315796801745493434",
+    "description": "Exit the park turning left onto Bury New Road. Turn Left and run along Scholes Lane and then left at St Monicas onto Bury Old Road. Continue all the way up to Bessies O' th' Barn and turn Left onto Barn Lane. Turn Left onto Bury New Road then run all the way back down to the park."
+  },
+
+ {
+    "id": "stocking5k",
+    "name": "Stocking Run 5k",
+    "distance": 5.3,
+    "gpx": "./gpx/Stocking Run 5k.gpx",
+    "strava": "https://www.strava.com/routes/3318214396095219026",
+    "description": "Left onto St Mary's-Left onto BNR for 1.75km-Left onto Singleton Rd-Left onto BOR-Left onto Whittaker(Heaton Park Tram Stop)-all way down back to the Park"
  },
-  
+
+ {
+    "id": "stocking7k",
+    "name": "Stocking Run 7k",
+    "distance": 7.3,
+    "gpx": "./gpx/Stocking Run 7k.gpx",
+    "strava": "https://www.strava.com/routes/3318215140161349292",
+    "description": "Left onto St Mary's-Left onto BNR-Left onto Northunmberland- Left onto Leicester Rd-Left onto BOR-Left onto Whittaker(Heaton Park Tram Stop)-all way down back to the Park"
+ },
+ 
+ {
+    "id": "stockingfull",
+    "name": "Stocking Run - Full",
+    "distance": 8.4,
+    "gpx": "./gpx/Stocking Run - Full.gpx",
+    "strava": "https://www.strava.com/routes/3315817179421000540",
+    "description": "Left onto St Marys-Left onto BNR-Left onto Gt Cheetham St E (junction at MCDonalds)-Left onto Leicester Rd(past Asda)-Left onto BOR-Left onto Whittaker(Heaton Park Tram) all way down to St Marys Park."
+ },
+
+ {
+    "id": "upnewdownold",
+    "name": "Up New Down Old",
+    "distance": 5.3,
+    "gpx": "./gpx/RTH - Up New Down Old.gpx",
+    "strava": "https://www.strava.com/routes/3323373509749512418",
+    "description": "Run through the park towards Bury New Road taking the left path out of the park. Turn right on to Bury New Road and run all the way up to the motorway.  Go over the bridge taking the right path to continue on Bury New Road. Turn right onto Barn Street and right again at the end onto Bury Old Road. Continue all the way down to Heaton Park Metrolink. Turn right onto Whittaker Lane and run all the way down back to St Mary's Park Car Park"
+ },
+
  {
     "id": "BNR-Butterstile-Kersal-Moor-BNR",
     "name": "BNR-Butterstile-Kersal-Moor-BNR Loop",
@@ -52,33 +88,25 @@
     "strava": "https://www.strava.com/routes/3328452416926797616",
     "description": "Through park left onto BNR. Cross over the road continue towards Mcr. Right onto Butterstile. At end cross over, turn right and take first left onto Kersal Road. Left at end onto Moor Lane. Cross Bury New onto Singleton Road. Left at end onto Bury Old Road. Continue up BOR to Metrolink. Left down Whittaker and back to the park."
  },
-  
+
  {
-    "id": "stocking5k",
-    "name": "Stocking Run 5k",
-    "distance": 5.3,
-    "gpx": "./gpx/Stocking Run 5k.gpx",
-    "strava": "https://www.strava.com/routes/3318214396095219026",
-    "description": "Left onto St Mary's-Left onto BNR for 1.75km-Left onto Singleton Rd-Left onto BOR-Left onto Whittaker(Heaton Park Tram Stop)-all way down back to the Park"
+    "id": "whitefield wander short meadow",
+    "name": "Whitefield Wander Shorter (Through the Meadow)",
+    "distance": 6.4,
+    "gpx": "./gpx/Whitefield Wander Shorter (through the meadow).gpx",
+    "strava": "https://www.strava.com/routes/3423095791205749310",
+    "description": "Exit the car park turning right onto St Mary's Road. Continue along Rectory Lane and up Whittaker Lane towards Heaton Park Tram Stop. Cross over Bury Old Road and turn left. Turn right onto Heywood Road and then left onto Mount Road and continue straight onto Sandgate Road. At the end turn left onto Thatch Leach Lane. We'll then take the first right onto Stanway Rd and then the 2nd left onto Grayson Ave for a cheeky little scoot through Fusiliers Meadow. Exit the Meadow onto Thatch Leach and run towards Bury New Road crossing safely at the lights and heading straight down Hardman's Road. Cross over the motorway turning left onto Bury New Road and return to the park via St Mary's Road."
+  },
+
+ {
+    "id": "henryboddies",
+    "name": "Henry Boddingtons O&B",
+    "distance": 7.9,
+    "gpx": "./gpx/Henry Boddingtons O&B.gpx",
+    "strava": "https://www.strava.com/routes/3415832350484427442",
+    "description": "Exit St Mary's Park turning left onto Bury New Road. Cross over and continue down BNR turning right onto Hilton Lane. Run down onto Rainscough continuing onto Agecroft until you reach the Henry Boddingtons. Return the same way in reverse."
  },
   
- {
-    "id": "stocking7k",
-    "name": "Stocking Run 7k",
-    "distance": 7.3,
-    "gpx": "./gpx/Stocking Run 7k.gpx",
-    "strava": "https://www.strava.com/routes/3318215140161349292",
-    "description": "Left onto St Mary's-Left onto BNR-Left onto Northunmberland- Left onto Leicester Rd-Left onto BOR-Left onto Whittaker(Heaton Park Tram Stop)-all way down back to the Park"
- },
-  
- {
-    "id": "stockingfull",
-    "name": "Stocking Run - Full",
-    "distance": 8.4,
-    "gpx": "./gpx/Stocking Run - Full.gpx",
-    "strava": "https://www.strava.com/routes/3315817179421000540",
-    "description": "Left onto St Marys-Left onto BNR-Left onto Gt Cheetham St E (junction at MCDonalds)-Left onto Leicester Rd(past Asda)-Left onto BOR-Left onto Whittaker(Heaton Park Tram) all way down to St Marys Park."
- },
   
  {
     "id": "loopyloop",
