@@ -284,9 +284,7 @@ function renderSchedule() {
         ${formattedDate} · ${run.time || ''}
       </div>
 
-      <h3 class="route-title" style="min-height:auto; margin-bottom:6px;">
-        ${run.runningGroup || ''}
-      </h3>
+      
 
       ${
         route
@@ -298,6 +296,10 @@ function renderSchedule() {
           : ''
       }
 
+      <h3 class="route-title" style="min-height:auto; margin-bottom:6px;">
+        ${run.runningGroup || ''}
+      </h3>
+      
       <p style="margin:0 0 14px 0; color:#9ea8b8;">
         ${run.notes || ''}
       </p>
