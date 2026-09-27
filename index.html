@@ -11,20 +11,21 @@
 
   <!-- leaflet-gpx for GPX rendering -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
-<!-- background colour (was #0f1115)-->
+
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       background: #22d434;
-      color: #fff;
+      color: #222;
     }
 
     header {
      padding: 16px;
       font-size: 20px;
       font-weight: bold;
-      ground: #151924;
+      background: #145a1f;
+      color: white;
       position: sticky;
       top: 0;
     }
@@ -40,7 +41,7 @@
     }
 
     .card {
-      background: #1b2130;
+      background: #ffffff;
       padding: 12px;
       border-radius: 12px;
       cursor: pointer;
@@ -90,7 +91,7 @@
       display: inline-block;
       padding: 10px 12px;
       margin-top: 10px;
-      background: #2d6cdf;
+      background: #145a1f;
       color: white;
       border-radius: 8px;
       text-decoration: none;
@@ -100,7 +101,7 @@
       margin-bottom: 10px;
       display: inline-block;
       cursor: pointer;
-      color: #aaa;
+      color: #145a1f;
     }
 
     .category-grid {
@@ -111,9 +112,9 @@
 }
 
 .category-btn {
-  background: #1b2130;
+  background: #ffffff;
   border: none;
-  color: white;
+  color: #145a1f;
   padding: 28px;
   border-radius: 16px;
   font-size: 1.3rem;
@@ -124,7 +125,7 @@
 
 .category-btn:hover {
   transform: scale(1.02);
-  background: #242d40;
+  background: #d9f7dc;
 }
     
 /* Upcoming runs layout only */
@@ -144,7 +145,7 @@
 <body>
 <header>🏃 RunTogether Heaton Park</header>
   
-<div style="padding:12px 16px; display:flex; gap:10px; background:#151924; border-top:1px solid #222;">
+<div style="padding:12px 16px; display:flex; gap:10px; background:#1b7027; border-top:1px solid #b8e6bd;">
   <button class="btn" onclick="showSection('routes')">Sessions</button>
   <button class="btn" onclick="showSection('schedule')">Upcoming Runs</button>
 </div>
@@ -202,7 +203,7 @@
   <p
     id="routeDescription"
     style="
-    color:#c7cedb;
+    color:#555555;
     line-height:1.6;
     max-width:800px;
     white-space:pre-line;
@@ -300,7 +301,7 @@ function renderSchedule() {
         ${run.runningGroup || ''}
       </h3>
       
-      <p style="margin:0 0 14px 0; color:#9ea8b8;">
+      <p style="margin:0 0 14px 0; color:#555555;">
         ${run.notes || ''}
       </p>
 
